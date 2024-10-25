@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "srcs/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xmaj2001/MusicDetailsWeb.git"
+  },
+  "author": "xmaj2001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xmaj2001/MusicDetailsWeb/issues"
+  },
+  "homepage": "https://github.com/xmaj2001/MusicDetailsWeb#readme"
+}

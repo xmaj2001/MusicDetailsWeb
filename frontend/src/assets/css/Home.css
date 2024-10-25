@@ -1,0 +1,60 @@
+body {
+    /* @apply bg-gradient-to-l from-orange-400 via-orange-500 to-orange-600; */
+    background-color: rgb(0, 0, 0);
+    @apply bg-home bg-center bg-no-repeat;
+    @apply w-screen h-screen overflow-auto;
+    /* @apply w-screen h-screen bg-white;*/
+}
+
+@font-face {
+    font-family: vx;
+    src: url(../fonts/VarygraphieVF_PERSONAL_USE_ONLY.ttf);
+}
+
+.header {
+    @apply snap-center h-screen flex justify-evenly items-center
+}
+
+.header-sobre {
+    @apply flex flex-col md:flex-row justify-center md:items-start
+}
+
+.titulo {
+    font-family: system-ui;
+    @apply flex flex-col justify-start items-center
+}
+
+.titulo h3 {
+    font-family: system-ui;
+    @apply text-4xl text-center -mt-5 text-white
+}
+
+.titulo h4 {
+    font-family: system-ui;
+    @apply text-medium text-center text-orange-500
+}
+
+
+.sobre h2 {
+    font-family: system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    @apply text-lg md:text-3xl font-bold mb-2
+}
+
+.sobre p {
+    font-family: system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    @apply mb-2
+}
+
+.logo {
+    font-family: 'vx';
+}
+
+.logo-x {
+    font-family: 'vx';
+    font-size: 200px;
+    margin-right: 10px;
+}
