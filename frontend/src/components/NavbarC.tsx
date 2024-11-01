@@ -1,11 +1,15 @@
-import { Button, Navbar, NavbarBrand, NavbarContent, NavbarItem } from '@nextui-org/react'
+import { Button, Link, Navbar, NavbarBrand, NavbarContent, NavbarItem } from '@nextui-org/react'
 import {FaGithub} from 'react-icons/fa6'
 
-export default function NavbarC() {
+interface NavbarCProps {
+    bg: string
+}
+
+export default function NavbarC({bg}: NavbarCProps) {
     return (
-        <Navbar isMenuOpen={true} className='bg-transparent'>
+        <Navbar isMenuOpen={true} className={`${bg}`}>
             <NavbarBrand>
-                <p className="font-bold text-lg text-inherit logo">Music Details</p>
+                <Link className="font-bold text-lg text-inherit logo" href='/'>Music Details</Link>
             </NavbarBrand>
 
             <NavbarContent justify="end">

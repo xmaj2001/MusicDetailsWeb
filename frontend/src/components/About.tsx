@@ -4,6 +4,8 @@ import { FaDownload } from "react-icons/fa6";
 import { FaUpload } from "react-icons/fa6";
 
 export default function About() {
+    
+
     return (
         <motion.div initial={
             {
