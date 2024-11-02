@@ -41,7 +41,7 @@ export default function About() {
                 </p>
                 <Link href="/editor">
                     <Button className="bg-orange-500 hover:bg-white hover:text-orange-500 mx-2">
-                        <FaUpload /> Editar
+                        <FaUpload /> Upload File
                     </Button>
                 </Link>
 
