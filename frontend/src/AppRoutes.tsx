@@ -3,7 +3,7 @@ import { NextUIProvider } from '@nextui-org/react'
 import HomePage from './pages/HomePage'
 import EditorPage from './pages/EditorPage'
 
-function App() {
+function AppRoutes() {
 
   return (
     <NextUIProvider className='dark'>
@@ -18,4 +18,4 @@ function App() {
   )
 }
 
-export default App
+export default AppRoutes
