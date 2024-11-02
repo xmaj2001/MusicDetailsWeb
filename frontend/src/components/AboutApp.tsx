@@ -1,4 +1,4 @@
-import { Button, Chip, Link } from "@nextui-org/react";
+import { Chip, Link } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import { FaDownload } from "react-icons/fa6";
 
