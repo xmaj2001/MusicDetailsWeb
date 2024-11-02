@@ -37,7 +37,7 @@ function HomePage() {
       <motion.section className="header bg-neutral-900 flex-col-reverse lg:flex-row">
         <AboutApp />
         <motion.div className="flex flex-col justify-center items-center gap-8">
-          <Link href="/editor" className="btn btn-primary">
+          <Link href="/https://github.com/xmaj2001/MusicDetails" className="btn btn-primary">
             <VideoEmbed videoId="2IMXLBbJr3s" />
           </Link>
           <div className="titulo">

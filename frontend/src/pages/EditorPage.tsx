@@ -6,6 +6,7 @@ import Form from '../components/From'
 import Idetails from '../interfaces/Idetails'
 import logo from '../assets/imgs/logo.jpeg'
 import '../assets/css/Home.css'
+import ModalUpload from '../components/ModalUpload'
 
 function EditorPage() {
     const [details, setDetails] = useState<Idetails>({
@@ -48,6 +49,7 @@ function EditorPage() {
     return (
         <div className="h-screen text-white scroll-smooth overflow-y-auto bg-neutral-800">
             <NavbarC bg='bg-transparent' />
+            <ModalUpload setDetails={setDetails} />
             <motion.section className="-my-16 h-screen flex justify-center">
                 <motion.div  className="flex flex-col lg:flex-row w-full ">
                     <motion.div style={{ backgroundImage: `url(${logo})` }}  className="w-full relative bg-center bg-cover bg-no-repeat bg-white flex flex-col h-full items-center justify-center p-8">

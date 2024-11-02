@@ -1,4 +1,4 @@
-import { Card, CardBody, CardHeader } from "@nextui-org/react";
+import { Card, CardBody} from "@nextui-org/react";
 
 type VideoEmbedProps = {
   videoId: string;
@@ -6,10 +6,7 @@ type VideoEmbedProps = {
 
 const VideoEmbed: React.FC<VideoEmbedProps> = ({ videoId }) => {
   return (
-    <Card className="bg-orange-500">
-      <CardHeader>
-        <h3>Assista ao Vídeo</h3>
-      </CardHeader>
+    <Card className="bg-orange-500/75">
       <CardBody>
         <iframe
           width="600"
