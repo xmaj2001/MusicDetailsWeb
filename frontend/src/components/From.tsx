@@ -51,7 +51,7 @@ function Form({ onChange, settags, tags }: IFormProps) {
                 const result = await response.json();
 
                 setcapa(result.image);
-                let coverUrl = "src/assets/imgs/logo.jpeg";
+                let coverUrl = "/src/assets/imgs/logo.jpeg";
                 if (result.image) {
                     const cover = new Blob([new Uint8Array(result.image.imageBuffer.data)], { type: result.image.mime });
                     coverUrl = URL.createObjectURL(cover);
