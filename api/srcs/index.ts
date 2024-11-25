@@ -9,5 +9,7 @@ app.use(cors());
 
 app.use(routers);
 
-export default app;
+app.listen(port, () => {
+  console.log(`Server started at http://localhost:${port}`);
+});
  
