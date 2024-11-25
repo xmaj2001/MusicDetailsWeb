@@ -14,7 +14,7 @@ function AudioEditor() {
         album: '',
         year: '0',
         genre: '',
-        cover: 'src/assets/imgs/logo.jpeg',
+        cover: '/src/assets/imgs/logo.jpeg',
         bpm: '0',
         copyright: ''
     });
