@@ -43,7 +43,7 @@ function Form({ onChange, settags, tags }: IFormProps) {
         const formData = new FormData();
         formData.append('file', file);
         try {
-            const response = await fetch('http://localhost:3000/api/uploadfile', {
+            const response = await fetch(`https://musicdetailsweb.onrender.com/api/uploadfile`, {
                 method: 'POST',
                 body: formData,
             });
@@ -95,7 +95,7 @@ function Form({ onChange, settags, tags }: IFormProps) {
         formData.append('cover', JSON.stringify(capa));
         formData.append('raw', JSON.stringify(raw));
         try {
-            const response = await fetch('http://localhost:3000/api/downloadfile', {
+            const response = await fetch('https://musicdetailsweb.onrender.com/api/downloadfile', {
                 method: 'POST',
                 body: formData,
             });
