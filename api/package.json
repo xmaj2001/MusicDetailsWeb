@@ -2,8 +2,9 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "srcs/index.ts",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
     "start": "nodemon srcs/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
