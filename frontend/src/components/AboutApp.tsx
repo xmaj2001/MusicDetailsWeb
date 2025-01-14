@@ -1,7 +1,6 @@
 import { Button, Link } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import { BiWindow } from "react-icons/bi";
-import { FaDownload } from "react-icons/fa6";
 import { LiaLinux } from "react-icons/lia";
 
 export default function AboutApp() {
