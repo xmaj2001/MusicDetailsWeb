@@ -10,7 +10,7 @@ function AppRoutes() {
       <Router>
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/editor' element={<AudioEditor />} />
+          <Route path='*' element={<HomePage />} />
         </Routes>
       </Router>
     </NextUIProvider>

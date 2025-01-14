@@ -27,10 +27,16 @@ export default function AboutApp() {
                 <p className="max-w-[500px] text-left">
                     O Music Details é uma ferramenta prática e intuitiva para gerenciar e editar informações de suas músicas.<br />
                     Disponível tanto na versão web, que você pode acessar diretamente pelo navegador,
-                    quanto na <Link href="https://github.com/xmaj2001/MusicDetails" className="text-orange-500 font-bold">versão  desktop</Link>, projetada especialmente para o sistema operacional Windows.
+                    quanto na <Link href="https://github.com/xmaj2001/MusicDetails" className="text-orange-500 font-bold">versão  desktop</Link>, projetada especialmente para o sistema operacional Windows e linux.
                 </p>
 
                 <Link href="https://github.com/xmaj2001/MusicDetails/archive/refs/tags/v1.0.0.zip">
+                    <Button className="bg-white hover:bg-orange-500 hover:text-white text-orange-500 mx-2" >
+                        <FaDownload /> Baixar 1.0.0
+                    </Button>
+                </Link>
+
+                <Link href="https://github.com/xmaj2001/musictag/archive/refs/tags/v1.0.0.zip">
                     <Button className="bg-white hover:bg-orange-500 hover:text-white text-orange-500 mx-2" >
                         <FaDownload /> Baixar 1.0.0
                     </Button>
