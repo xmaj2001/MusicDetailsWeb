@@ -1,10 +1,6 @@
-import { Button, Link, Spacer } from "@nextui-org/react";
+import { Spacer } from "@nextui-org/react";
 import { motion } from "framer-motion";
-import { BiWindow } from "react-icons/bi";
-import { BsMicrosoft } from "react-icons/bs";
-import { FaLinux } from "react-icons/fa";
-import { FaDownload, FaUpload } from "react-icons/fa6";
-import { LiaLinux } from "react-icons/lia";
+
 
 export default function AboutApp() {
 

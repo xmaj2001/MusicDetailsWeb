@@ -1,11 +1,10 @@
-import { Button, Link, Spacer } from "@nextui-org/react";
+import { Button, Link } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import { BsMicrosoft } from "react-icons/bs";
-import { FaDownload, FaLinux } from "react-icons/fa6";
-import { FaUpload } from "react-icons/fa6";
+import { FaLinux } from "react-icons/fa6";
+
 
 export default function About() {
-
 
     return (
         <motion.div initial={
