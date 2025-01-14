@@ -1,6 +1,8 @@
 import { Button, Link } from "@nextui-org/react";
 import { motion } from "framer-motion";
+import { BiWindow } from "react-icons/bi";
 import { FaDownload } from "react-icons/fa6";
+import { LiaLinux } from "react-icons/lia";
 
 export default function AboutApp() {
 
@@ -32,13 +34,13 @@ export default function AboutApp() {
 
                 <Link href="https://github.com/xmaj2001/MusicDetails/archive/refs/tags/v1.0.0.zip">
                     <Button className="bg-white hover:bg-orange-500 hover:text-white text-orange-500 mx-2" >
-                        <FaDownload /> Baixar 1.0.0
+                        <LiaLinux /> Baixar 1.0.0
                     </Button>
                 </Link>
 
-                <Link href="https://github.com/xmaj2001/musictag/archive/refs/tags/v1.0.0.zip">
+                <Link href="https://github.com/xmaj2001/MusicDetails/archive/refs/tags/v1.0.0.zip">
                     <Button className="bg-white hover:bg-orange-500 hover:text-white text-orange-500 mx-2" >
-                        <FaDownload /> Baixar 1.0.0
+                        <BiWindow /> Baixar 1.0.0
                     </Button>
                 </Link>
 
