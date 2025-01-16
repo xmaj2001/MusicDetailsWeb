@@ -35,7 +35,7 @@ export default function About() {
                     </span>
                 </p>
 
-                <Link href="https://github.com/xmaj2001/musictag/archive/refs/tags/v1.0.0.zip">
+                <Link href="https://github.com/xmaj2001/musictag/releases/download/v1.0.0/musictag_1.0.0_amd64.deb">
                     <Button className="bg-white hover:bg-orange-500 hover:text-white text-orange-500 mx-2" >
                         <FaLinux /> Baixar
                     </Button>
