@@ -17,9 +17,9 @@ export default function AboutApp() {
             transition={{
                 delay: 1
             }}
-            className="header-sobre hidden sm:block">
+            className="hidden px-8 text-center header-sobre sm:block md:px-0 md:text-justify">
 
-            <div className="sobre mt-3">
+            <div className="mt-3 sobre">
             <motion.h2>Music Details</motion.h2>
                 <h3> Editor de Etiquetas de Música</h3>
                 <hr className="my-2" />

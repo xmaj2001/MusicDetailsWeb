@@ -9,18 +9,22 @@ export default function About() {
     return (
         <motion.div initial={
             {
-                scale: 0
+                scale: 0,
+                y:'100%'
             }
         }
             animate={{
-                scale: 1
+                scale: 1,
+                y:0
             }}
             transition={{
-                delay: 1
+               duration:'1',
+               type:"tween",
+               easings:5
             }}
-            className="header-sobre hidden sm:block">
+            className="hidden header-sobre sm:block">
 
-            <div className="sobre mt-3">
+            <div className="px-4 mt-3 text-sm text-center sobre md:text-justify md:px-0 md:text-medium">
                 <h3> Download</h3>
                 <motion.h2>Music Details</motion.h2>
                 <h3> Editor de Etiquetas de Música </h3>
@@ -29,20 +33,20 @@ export default function About() {
                     O Music Details é uma ferramenta prática e intuitiva para gerenciar e editar informações de suas músicas.<br />
                     Disponível <b>versão desktop</b>,
                     projetada especialmente para o sistema operacional: <span className="">
-                        <Link href="https://github.com/xmaj2001/MusicDetails" className="text-orange-500 font-bold">Window </Link>
+                        <Link href="https://github.com/xmaj2001/MusicDetails" className="font-bold text-orange-500">Window </Link>
                         <span className="mx-1">e</span>
-                        <Link href="https://github.com/xmaj2001/musictag" className="text-orange-500 font-bold"> Linux</Link>.
+                        <Link href="https://github.com/xmaj2001/musictag" className="font-bold text-orange-500"> Linux</Link>.
                     </span>
                 </p>
 
                 <Link href="https://github.com/xmaj2001/musictag/archive/refs/tags/v1.0.0.zip">
-                    <Button className="bg-white hover:bg-orange-500 hover:text-white text-orange-500 mx-2" >
+                    <Button className="mx-2 text-orange-500 bg-white hover:bg-orange-500 hover:text-white" >
                         <FaLinux /> Baixar
                     </Button>
                 </Link>
 
                 <Link href="https://github.com/xmaj2001/MusicDetails/archive/refs/tags/v1.0.0.zip">
-                    <Button className="bg-orange-500 hover:bg-orange-500 hover:text-white text-white mx-2" >
+                    <Button className="mx-2 text-white bg-orange-500 hover:bg-orange-500 hover:text-white" >
                         <BsMicrosoft /> Baixar
                     </Button>
                 </Link>

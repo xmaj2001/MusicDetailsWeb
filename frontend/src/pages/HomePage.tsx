@@ -10,11 +10,13 @@ import VideoEmbed from '../components/VideoEmbed'
 function HomePage() {
 
   return (
-    <div className="snap-y snap-mandatory h-screen text-white scroll-smooth overflow-y-auto">
+    <div className="h-screen overflow-y-auto text-white snap-y snap-mandatory scroll-smooth">
       <NavbarC bg='bg-transparent' />
-      <motion.section className="header bg-neutral-900/75 flex-col-reverse lg:flex-row">
+      <motion.section className="flex-col-reverse header bg-neutral-900/75 lg:flex-row">
         <About />
-        <motion.div className="flex flex-col justify-center items-center gap-8">
+        <motion.div initial={{y:'50%', x:'-100%'}} 
+                animate={{y:0, x:0}} transition={{duration:'1'}}
+                className="flex flex-col items-center justify-center gap-8">
           <Image
             isBlurred
             isZoomed
@@ -34,9 +36,9 @@ function HomePage() {
         </motion.div>
       </motion.section>
 
-      <motion.section className="header bg-neutral-900 flex-col-reverse lg:flex-row">
+      <motion.section className="flex-col-reverse header bg-neutral-900 lg:flex-row">
         <AboutApp />
-        <motion.div className="flex flex-col justify-center items-center gap-8">
+        <motion.div className="flex flex-col items-center justify-center gap-8">
           <Link href="/https://github.com/xmaj2001/MusicDetails" className="btn btn-primary">
             <VideoEmbed videoId="2IMXLBbJr3s" />
           </Link>
